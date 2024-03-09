@@ -1,8 +1,58 @@
-#imagen {
-    width: 350px;
-    height: 350px;
-    cursor: pointer;
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.trabajo {
+    border: 2px solid black;
+    padding: 20px;
+}
+
+
+
+.contenedor {
+    display: flex;
+    gap: 20px;
     align-items: center;
     justify-content: center;
-    border-radius: 10%;
+}
+
+.fotos img {
+    width: 130px;
+    height: 130px;
+    margin-bottom: 10px;
+    border-radius: 13px;
+  
+}
+
+.selects {
+    display: flex;
+    gap: 20px;
+}
+
+#imagen { border-radius: 14px;
+    width: 150px;
+    height: 150px;
+justify-content: center;
+display: flex;
+margin: 0 auto;}
+
+
+
+button {
+    padding: 10px 20px;
+    background-color: #704caf; 
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+
+
+}
+
+button:hover {
+    background-color: #230243; 
+
 }
