@@ -1,0 +1,56 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>parte 2</title>
+    <link rel="stylesheet" href="./assets /css/style2.css">
+</head>
+<body>
+    
+    <div class="contenedor">
+        <div class="fotos">
+            <img src="./assets /img/yoongi.jpeg" alt="Imagen 1">
+            <input id="a" type="text">
+        </div>
+
+
+
+        <div class="fotos">
+            <img src="./assets /img/mingi.jpeg" alt="Imagen 2">
+            <input id="b" type="text">
+        </div>
+
+
+
+        <div class="fotos">
+            <img src="./assets /img/mingyu.jpeg" alt="Imagen 3">
+            <input id="c" type="text">
+        </div>
+
+  
+
+    </div>
+
+    <p id="resultado"></p>
+
+    <button onclick="
+    var inputA = document.querySelector('#a').value;
+    var inputB = document.querySelector ('#b').value;
+    var inputC = document.querySelector ('#c').value
+    var total = Number(inputA) + Number(inputB) + Number (inputC);
+    var parrafo = document.querySelector ('#resultado'); 
+
+    if (total <= 10 ) 
+    { parrafo.innerHTML = `Llevas ${total} stickers`
+
+    }
+    else {
+        parrafo.innerHTML = 'Llevas demasiados stickers'
+    }"
+    >
+   Mostrar Resultado 
+</button>
+
+<script src="./assets /js/index2.js"></script>
+</body>
+</html>

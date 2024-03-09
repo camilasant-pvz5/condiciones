@@ -1,0 +1,8 @@
+#imagen {
+    width: 350px;
+    height: 350px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10%;
+}
